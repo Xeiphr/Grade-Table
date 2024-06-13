@@ -1,0 +1,25 @@
+table
+{
+ border-collapse: collapse;
+} 
+th, td {
+    border:1px solid black;
+}
+table td input 
+{
+    display: block;
+    background-color:yellow;
+    width: 98%;
+}
+tr:nth-child(even)
+{
+    background-color: grey;
+}
+.assignment
+{
+    text-align: center;
+}
+#unsubmitted
+{
+    font-size: x-large;
+}
